@@ -112,17 +112,19 @@
     .table {
         width: 90vw;
         border-collapse: collapse;
-        padding: 10px;
+        padding: 5px;
+        align-items: center;
+        overflow-x: hidden;
 
     }
 
     .main {
-        padding: 15px;
         box-shadow: rgb(65, 65, 65) 0 0 5px 0;
         border-radius: 10px;
     }
 
     th {
+        overflow-x: hidden;
         background: #dddddd;
         cursor: pointer;
         padding: 12px;
@@ -132,6 +134,7 @@
     }
 
     td {
+        overflow-x: hidden;
         padding: 10px;
         font-weight: 500;
     }
@@ -139,6 +142,9 @@
 
 
     .row1 {
+        height: 50px;
+        width: 70vw;
+        overflow-x: hidden;
         height: 50px;
         background-color: rgb(255, 255, 255);
         transition: 200ms ease-in-out;
@@ -148,6 +154,8 @@
 
     .row2 {
         height: 50px;
+        width: 70vw;
+        overflow-x: hidden;
         background-color: rgb(244, 244, 244);
         transition: 200ms ease-in-out;
 

@@ -116,7 +116,9 @@ const App: React.FC = () => {
           onSort={setSortConfig}
           sortConfig={sortConfig}
         />
-        {filtered.length === 0 && <p>No matching records found.</p>}
+        {filtered.length === 0 && (
+          <p className={styles.message}>No matching records found.</p>
+        )}
         <Pagination
           currentPage={currentPage}
           totalPages={totalPages}
