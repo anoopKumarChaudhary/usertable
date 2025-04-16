@@ -1,0 +1,169 @@
+@media screen and (min-width: 900px) {
+    .table {
+        width: 50vw;
+        border-collapse: collapse;
+        padding: 10px;
+
+    }
+
+    .main {
+        padding: 15px;
+        box-shadow: rgb(65, 65, 65) 0 0 5px 0;
+        border-radius: 10px;
+    }
+
+    th {
+        background: #dddddd;
+        cursor: pointer;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+
+
+    }
+
+    td {
+        padding: 10px;
+        font-weight: 500;
+    }
+
+
+
+    .row1 {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        transition: 200ms ease-in-out;
+
+    }
+
+    .row2 {
+        height: 50px;
+        background-color: rgb(244, 244, 244);
+        transition: 200ms ease-in-out;
+
+    }
+
+    .row1:hover,
+    .row2:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+    .table {
+        width: 90vw;
+        border-collapse: collapse;
+        padding: 10px;
+
+    }
+
+    .main {
+        padding: 15px;
+        box-shadow: rgb(65, 65, 65) 0 0 5px 0;
+        border-radius: 10px;
+    }
+
+    th {
+        background: #dddddd;
+        cursor: pointer;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+
+
+    }
+
+    td {
+        padding: 10px;
+        font-weight: 500;
+    }
+
+
+
+    .row1 {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        transition: 200ms ease-in-out;
+
+    }
+
+    .row2 {
+        height: 50px;
+        background-color: rgb(244, 244, 244);
+        transition: 200ms ease-in-out;
+
+    }
+
+    .row1:hover,
+    .row2:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 520px) {
+    .table {
+        width: 90vw;
+        border-collapse: collapse;
+        padding: 10px;
+
+    }
+
+    .main {
+        padding: 15px;
+        box-shadow: rgb(65, 65, 65) 0 0 5px 0;
+        border-radius: 10px;
+    }
+
+    th {
+        background: #dddddd;
+        cursor: pointer;
+        padding: 12px;
+        color: rgb(0, 0, 0);
+
+
+    }
+
+    td {
+        padding: 10px;
+        font-weight: 500;
+    }
+
+
+
+    .row1 {
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        transition: 200ms ease-in-out;
+
+
+    }
+
+    .row2 {
+        height: 50px;
+        background-color: rgb(244, 244, 244);
+        transition: 200ms ease-in-out;
+
+    }
+
+    .row1:hover,
+    .row2:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        transition: 200ms ease-in-out;
+    }
+
+    .head1 {
+        display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}

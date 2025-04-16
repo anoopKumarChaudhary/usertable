@@ -1,0 +1,110 @@
+@media screen and (min-width: 900px) {
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 140px;
+        background-color: #4b85c3;
+        outline: none;
+        border: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .text {
+        font-weight: 600;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 140px;
+        background-color: #4b85c3;
+        outline: none;
+        border: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .text {
+        font-weight: 600;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 520px) {
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 140px;
+        background-color: #4b85c3;
+        outline: none;
+        border: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:disabled {
+        background-color: #ccc;
+        cursor: not-allowed;
+    }
+
+    .text {
+        font-weight: 600;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+
+/* 
+  
+  @media screen and (min-width: 900px) {
+    @media (prefers-color-scheme: dark) {
+    }
+  }
+  @media screen and (max-width: 900px) and (min-width: 520px) {
+    @media (prefers-color-scheme: dark) {
+    }
+  }
+  @media screen and (max-width: 520px) {
+    @media (prefers-color-scheme: dark) {
+    }
+  } */

@@ -1,0 +1,53 @@
+@media screen and (min-width: 900px) {
+    .search {
+        width: 30vw;
+        height: 35px;
+        padding: 10px 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: rgb(234, 242, 242);
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid rgb(208, 225, 225);
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 900px) and (min-width: 520px) {
+    .search {
+        width: 40vw;
+        height: 35px;
+        padding: 10px 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: rgb(234, 242, 242);
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid rgb(208, 225, 225);
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}
+
+@media screen and (max-width: 520px) {
+    .search {
+        width: 35vw;
+        height: 30px;
+        padding: 10px 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background-color: rgb(234, 242, 242);
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid rgb(208, 225, 225);
+    }
+
+    @media (prefers-color-scheme: dark) {}
+}

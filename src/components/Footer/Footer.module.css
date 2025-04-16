@@ -1,0 +1,15 @@
+.p1 {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    margin-top: 60px;
+}
+
+.p2 {
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
